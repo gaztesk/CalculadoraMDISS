@@ -27,5 +27,12 @@ public class TestCalculadora
 		int resultado = calc.sumar(5,6);
 		assertEquals(11, resultado);
 	}
+	
+	@Test
+	public void testRestar_10_6() 
+	{
+		int resultado = calc.restar(10,6);
+		assertEquals(4, resultado);
+	}
 
 }
