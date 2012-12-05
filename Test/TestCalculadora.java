@@ -34,5 +34,26 @@ public class TestCalculadora
 		int resultado = calc.restar(10,6);
 		assertEquals(4, resultado);
 	}
+	
+	@Test
+	public void testDividir_10_2() 
+	{
+		float resultado = calc.dividir(10,2);
+		assertEquals(5,0, resultado);
+	}
+	
+	@Test
+	public void testDividir0() 
+	{
+		try
+		{
+			calc.dividir(10,0);
+			fail(ArithmeticException.class.getName()+"_expected");
+		}
+		catch(ArithmeticException e)
+		{
+			//ok
+		}
+	}
 
 }

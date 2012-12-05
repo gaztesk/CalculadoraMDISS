@@ -12,4 +12,11 @@ public class Calculadora
 		int resultado = a - b;
 		return resultado;
 	}
+	
+	public float dividir(int a,int b)
+	{
+		float resultado = a / b;
+		return resultado;
+	}
+	
 }
