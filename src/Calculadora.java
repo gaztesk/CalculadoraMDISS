@@ -19,4 +19,12 @@ public class Calculadora
 		return resultado;
 	}
 	
+	public double log10(int a)
+	{
+		double resultado = java.lang.Math.log10(a);
+		return resultado;
+	}
+	
+	
+	
 }

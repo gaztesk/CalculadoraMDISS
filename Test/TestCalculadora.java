@@ -55,5 +55,13 @@ public class TestCalculadora
 			//ok
 		}
 	}
+	
+	@Test
+	public void testLog10_10() 
+	{
+		double resultado = calc.log10(10);
+		//Los doubles no se pueden comparar sin esta estructura
+		assertEquals(Double.doubleToLongBits(1), Double.doubleToLongBits(resultado));
+	}
 
 }
