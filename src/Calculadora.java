@@ -25,6 +25,12 @@ public class Calculadora
 		return resultado;
 	}
 	
+	public double logNeperiano(int a)
+	{
+		double resultado = java.lang.Math.log(a);
+		return resultado;
+	}
+	
 	
 	
 }

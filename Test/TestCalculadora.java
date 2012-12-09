@@ -63,5 +63,15 @@ public class TestCalculadora
 		//Los doubles no se pueden comparar sin esta estructura
 		assertEquals(Double.doubleToLongBits(1), Double.doubleToLongBits(resultado));
 	}
+	
+	@Test
+	public void testlogNeperiano_10() 
+	{
+		double resultado = calc.logNeperiano(1);
+		//Los doubles no se pueden comparar sin esta estructura
+		assertEquals(Double.doubleToLongBits(0), Double.doubleToLongBits(resultado));
+	}
+	
+	
 
 }
